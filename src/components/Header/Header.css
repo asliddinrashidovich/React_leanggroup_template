@@ -1,0 +1,50 @@
+.header {
+  height: 100vh;
+}
+.header nav {
+  box-shadow: 0px 4px 26px -1px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 4px 26px -1px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 4px 26px -1px rgba(0, 0, 0, 0.53);
+}
+.header__languagesBTN button {
+  background-color: transparent;
+  border: none;
+}
+.header__languageActive {
+  color: #EF7C00;
+}
+.header__navbarItems ul {
+  margin: auto;
+}
+.header__navbarItems ul li {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgba(0, 16, 61, 0.1215686275);
+}
+.header__navbarItems ul li a {
+  margin: 0 8px;
+  padding: 0;
+  font-weight: 500;
+}
+.header__navbarItems ul li .nav-link.active {
+  color: #EF7C00;
+}
+.header__content {
+  height: 100%;
+  background-image: url(../../assets/images/bg2.jpg);
+  background-repeat: no-repeat;
+}
+.header__content div .header__contentTop {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+}
+.header__content div button {
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #EF7C00;
+}/*# sourceMappingURL=Header.css.map */

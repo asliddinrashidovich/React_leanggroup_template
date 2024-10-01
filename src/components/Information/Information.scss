@@ -1,0 +1,29 @@
+.information {
+    &__form {
+        width: 500px;
+    }
+    &__form1 {
+        .input-group {
+            .input-group-text {
+                background-color: #fff !important;
+                color: #EF7C00;
+            }
+        }
+    }
+    &__box {
+        background: url(../../assets/images/background.png);
+        box-shadow: 0px 4px 32px 0px #00103D29;
+    }
+    &__button {
+        button {
+            font-weight: 500;
+            padding: 10px 20px;
+            font-size: 13px;
+            line-height: 13px;
+            color: #fff;
+            background-color: #EF7C00;
+            border: none;
+            border-radius: 4px;
+        }
+    }
+}

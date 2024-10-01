@@ -1,0 +1,13 @@
+.sertificate {
+  margin-top: 80px;
+}
+.sertificate__images {
+  padding: 20px;
+}
+.sertificate .preview {
+  position: absolute;
+}
+.sertificate .next {
+  position: absolute;
+  left: 100%;
+}/*# sourceMappingURL=Sertificate.css.map */

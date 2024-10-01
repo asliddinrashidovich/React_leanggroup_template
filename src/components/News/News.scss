@@ -1,0 +1,28 @@
+.news {
+    &__contents {
+        margin: 30px 0;
+    }
+    &__contentDate {
+        font-weight: 500;
+        color: #919399;
+        font-size: 13px;
+        line-height: 13px;
+        margin: 20px 0;
+    }
+    &__contentText {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__btn {
+        font-weight: 500;
+        padding: 10px 20px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #EF7C00;
+        background-color: #fff;
+        border: 1px solid #EF7C00;
+        border-radius: 4px;
+        margin: 30px auto;
+    }
+}

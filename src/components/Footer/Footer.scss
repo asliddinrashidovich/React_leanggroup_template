@@ -1,0 +1,49 @@
+.footer {
+    background-color: #00103D0F;
+    &__headerIcons {
+        a {
+            text-decoration: none;
+            margin: 10px;
+            font-size: 20px;
+            color: #EF7C00;
+        }
+    }
+    &__header {
+        padding-bottom: 10px;
+        border-bottom: 2px solid #919399;
+    }
+    &__lists{
+        padding: 10px 0;
+        h3 {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #EF7C00;
+        }
+        h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        ul {
+            padding: 0;
+            li {
+                text-decoration: none;
+                list-style-type: none;
+                cursor: pointer;
+            }
+        }
+    }
+    &__listBox1 {
+        width: 50%;
+    }
+    &__listBox2 {
+        width: 40%;
+    }
+    &__context {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+    }
+}
